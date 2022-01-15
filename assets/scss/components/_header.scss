@@ -1,7 +1,6 @@
 /*--- HEADER ---*/
 .header {
   width: 100%;
-  background-color: var(--body-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -43,7 +42,7 @@
   &__link,
   &__logo,
   &__toggle {
-    color: var(--title-color);
+    color: var(--first-color);
     font-weight: var(--font-semi-bold);
   }
   &__logo {

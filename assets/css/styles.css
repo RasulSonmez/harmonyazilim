@@ -100,6 +100,7 @@ img {
 /*--- REUSABLE CSS CLASSES ---*/
 .section {
   padding: 4.5rem 0 1rem;
+  border-bottom: 1px solid #ffc10759;
 }
 
 .section__title, .section__title-center {
@@ -168,7 +169,6 @@ img {
 /*--- HEADER ---*/
 .header {
   width: 100%;
-  background-color: var(--body-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -227,7 +227,7 @@ img {
 }
 
 .nav__link, .nav__logo, .nav__toggle {
-  color: var(--title-color);
+  color: var(--first-color);
   font-weight: var(--font-semi-bold);
 }
 
