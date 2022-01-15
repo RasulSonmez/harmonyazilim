@@ -9,7 +9,11 @@
 
 html {
   scroll-behavior: smooth;
-  background: radial-gradient(ellipse at bottom, #03a9f4 0%, #090a0f 100%);
+  background: radial-gradient(
+    ellipse at bottom,
+    #03a9f4 0%,
+    #090a0f 100%
+  ); // second color #1b2735
 }
 
 body {

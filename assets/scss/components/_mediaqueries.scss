@@ -12,10 +12,6 @@
   .services__img {
     width: 100px;
   }
-
-  .app__buttons {
-    grid-template-columns: max-content;
-  }
 }
 
 /* For medium devices */
@@ -30,9 +26,8 @@
 
   .home__container,
   .about__container,
-  .security__container,
   .services__container,
-  .app__container,
+  .team__container,
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
@@ -44,21 +39,19 @@
 
   .home__container,
   .about__container,
-  .security__container,
-  .app__container,
+  .team__container,
   .contact__container {
     align-items: center;
   }
 
   .about__item,
   .security__item,
-  .app__item,
+  .team__item,
   .contact__description {
     text-align: initial;
   }
 
-  .about__img,
-  .app__img {
+  .about__img {
     order: -1;
   }
 }
@@ -90,10 +83,6 @@
   .home__container {
     padding: 6rem 0 2rem;
   }
-
-  .app__buttons {
-    justify-content: initial;
-  }
 }
 
 /* For large devices */
@@ -107,8 +96,7 @@
   }
 
   .about__container,
-  .security__container,
-  .app__container,
+  .team__container,
   .contact__container {
     column-gap: 6rem;
   }
@@ -118,7 +106,7 @@
   }
 
   .contact__container {
-    grid-template-columns: 3fr 1.5fr 1.25fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .footer {

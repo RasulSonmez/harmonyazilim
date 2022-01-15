@@ -20,7 +20,7 @@
   &__menu {
     @media screen and (max-width: 767px) {
       position: fixed;
-      background-color: var(--container-color);
+      background-color: #115a7a;
       box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
       padding: 2.5rem 0;
       width: 90%;
@@ -78,11 +78,11 @@
     content: "";
     position: absolute;
     bottom: -0.75rem;
-    left: 45%;
-    width: 5px;
+    left: 30%;
+    width: 12px;
     height: 5px;
-    background-color: var(--title-color);
-    border-radius: 50%;
+    background-color: var(--color-yellow);
+    border-radius: 0.5rem;
   }
 }
 
