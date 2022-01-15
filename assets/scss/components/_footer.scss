@@ -1,6 +1,6 @@
 /*--- FOOTER ---*/
 .footer {
-  background-color: var(--first-color-lighten);
+  background-color: var(--first-color-alt);
   padding-bottom: 2rem;
 
   &__container {
@@ -14,8 +14,14 @@
   }
   &__logo {
     display: inline-block;
+    align-items: center;
+    justify-content: center;
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
   }
   &__description,
   &__link {

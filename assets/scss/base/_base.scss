@@ -16,8 +16,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--text-color);
+  color: var(--container-color);
   transition: 0.5s; // For animation dark mode
 }
 
@@ -25,7 +24,7 @@ h1,
 h2,
 h3 {
   font-weight: var(--font-semi-bold);
-  color: var(--title-color);
+  color: var(--container-color);
   line-height: 1.5;
 }
 
