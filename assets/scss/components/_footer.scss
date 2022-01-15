@@ -13,11 +13,15 @@
     margin-bottom: var(--mb-0-75);
   }
   &__logo {
-    display: inline-block;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
+    p {
+      color: rgba(125, 141, 161, 1);
+      margin-left: 0.5rem;
+    }
     img {
       width: 2rem;
       height: 2rem;
@@ -27,12 +31,17 @@
   &__link {
     font-size: var(--small-font-size);
   }
+
   &__links {
     display: grid;
     row-gap: 0.5rem;
   }
+  &__description,
   &__link {
     color: var(--title-color);
+    &:hover {
+      color: #f90000b0;
+    }
   }
   &__social {
     display: flex;

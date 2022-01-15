@@ -64,7 +64,7 @@
 
 html {
   scroll-behavior: smooth;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #03a9f4 0%, #090a0f 100%);
 }
 
 body {
@@ -242,8 +242,8 @@ img {
 }
 
 .nav__logo img {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   margin-right: 0.5rem;
 }
 
@@ -423,7 +423,9 @@ img {
 }
 
 .footer__logo {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -432,6 +434,11 @@ img {
           justify-content: center;
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
+}
+
+.footer__logo p {
+  color: #7d8da1;
+  margin-left: 0.5rem;
 }
 
 .footer__logo img {
@@ -449,8 +456,12 @@ img {
   row-gap: 0.5rem;
 }
 
-.footer__link {
+.footer__description, .footer__link {
   color: var(--title-color);
+}
+
+.footer__description:hover, .footer__link:hover {
+  color: #f90000b0;
 }
 
 .footer__social {
@@ -700,9 +711,6 @@ img {
   }
   .nav__toggle {
     display: none;
-  }
-  .change-theme {
-    position: initial;
   }
   .home__container {
     padding: 6rem 0 2rem;
