@@ -65,6 +65,9 @@
   &__button {
     margin-top: 1rem;
     cursor: pointer;
+    &:hover {
+      margin-left: 0.4rem;
+    }
   }
   &__label {
     position: absolute;

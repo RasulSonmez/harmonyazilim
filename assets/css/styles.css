@@ -502,6 +502,10 @@ img {
   cursor: pointer;
 }
 
+.contact__button:hover {
+  margin-left: 0.4rem;
+}
+
 .contact__label {
   position: absolute;
   top: 0.75rem;
