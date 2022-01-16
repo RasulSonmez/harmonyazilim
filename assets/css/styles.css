@@ -398,6 +398,7 @@ img {
   padding: 2rem 1.5rem;
   border-radius: 1rem;
   text-align: center;
+  place-items: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   cursor: pointer;
