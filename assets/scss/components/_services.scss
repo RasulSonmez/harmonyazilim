@@ -3,6 +3,10 @@
   &__container {
     padding-top: 1rem;
   }
+  &__description {
+    margin-bottom: var(--mb-2);
+    text-align: center;
+  }
   &__item {
     display: grid;
     row-gap: 1rem;
