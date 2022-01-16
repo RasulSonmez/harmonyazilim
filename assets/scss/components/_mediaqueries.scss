@@ -54,6 +54,17 @@
   .about__img {
     order: -1;
   }
+  .pricing {
+    &__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &__content {
+      grid-template-rows: repeat(2, max-content);
+    }
+    &__button {
+      align-self: flex-end;
+    }
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -107,6 +118,19 @@
 
   .contact__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .pricing {
+    align-items: center;
+
+    &__container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    &__header-circle {
+      margin-bottom: var(--mb-1-5);
+    }
+    &__header-subtitle {
+      font-size: var(--small-font-size);
+    }
   }
 
   .footer {
