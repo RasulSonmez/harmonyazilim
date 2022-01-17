@@ -20,7 +20,7 @@
   &__menu {
     @media screen and (max-width: 767px) {
       position: fixed;
-      background-color: #115a7a;
+      background: radial-gradient(ellipse at bottom, #03a9f4 0%, #090a0f 100%);
       box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
       padding: 2.5rem 0;
       width: 90%;

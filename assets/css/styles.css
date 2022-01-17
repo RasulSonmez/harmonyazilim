@@ -128,7 +128,7 @@ img {
 
 /*--- LAYOUT ---*/
 .container {
-  max-width: 968px;
+  max-width: 1400px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -137,6 +137,10 @@ img {
   display: -ms-grid;
   display: grid;
   gap: 1.5rem;
+}
+
+.image-h {
+  height: 15rem;
 }
 
 .floating {
@@ -150,9 +154,6 @@ img {
           animation-timing-function: ease-in-out;
   margin-left: 30px;
   margin-top: 5px;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
 }
 
 @-webkit-keyframes floating {
@@ -215,7 +216,7 @@ img {
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
-    background-color: #115a7a;
+    background: radial-gradient(ellipse at bottom, #03a9f4 0%, #090a0f 100%);
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
             box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
     padding: 2.5rem 0;
@@ -308,6 +309,12 @@ img {
   row-gap: 3rem;
 }
 
+.home__container img {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
 .home__title {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-bold);
@@ -372,6 +379,10 @@ img {
 
 .about__item {
   text-align: center;
+}
+
+.about__item img {
+  height: 250px;
 }
 
 /*--- SERVICES ---*/
@@ -546,9 +557,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
@@ -935,22 +943,13 @@ img {
 /*--- MEDIA QUERIES ---*/
 /* For small devices */
 @media screen and (max-width: 360px) {
-  .svg__img {
-    width: 100%;
-  }
   .section {
     padding: 3.5rem 0 1rem;
-  }
-  .services__img {
-    width: 100px;
   }
 }
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
-  .svg__img {
-    width: 100%;
-  }
   .section__title-center {
     text-align: initial;
   }
@@ -976,12 +975,6 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
-  .about__item,
-  .security__item,
-  .team__item,
-  .contact__description {
-    text-align: initial;
-  }
   .about__img {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
@@ -1004,7 +997,7 @@ img {
 
 @media screen and (min-width: 767px) {
   body {
-    margin: 0;
+    margin: 1rem;
   }
   .section {
     padding: 6rem 0 2rem;
@@ -1040,9 +1033,6 @@ img {
 @media screen and (min-width: 968px) {
   .button__header {
     display: block;
-  }
-  .svg__img {
-    width: 470px;
   }
   .about__container,
   .team__container,

@@ -1,25 +1,13 @@
 /*--- MEDIA QUERIES ---*/
 /* For small devices */
 @media screen and (max-width: 360px) {
-  .svg__img {
-    width: 100%;
-  }
-
   .section {
     padding: 3.5rem 0 1rem;
-  }
-
-  .services__img {
-    width: 100px;
   }
 }
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
-  .svg__img {
-    width: 100%;
-  }
-
   .section__title-center {
     text-align: initial;
   }
@@ -44,13 +32,6 @@
     align-items: center;
   }
 
-  .about__item,
-  .security__item,
-  .team__item,
-  .contact__description {
-    text-align: initial;
-  }
-
   .about__img {
     order: -1;
   }
@@ -69,7 +50,7 @@
 
 @media screen and (min-width: 767px) {
   body {
-    margin: 0;
+    margin: 1rem;
   }
 
   .section {
@@ -100,10 +81,6 @@
 @media screen and (min-width: 968px) {
   .button__header {
     display: block;
-  }
-
-  .svg__img {
-    width: 470px;
   }
 
   .about__container,

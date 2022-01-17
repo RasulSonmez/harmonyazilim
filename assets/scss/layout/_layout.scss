@@ -14,7 +14,7 @@
 
 /*--- LAYOUT ---*/
 .container {
-  max-width: 968px;
+  max-width: 1400px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -24,6 +24,10 @@
   gap: 1.5rem;
 }
 
+.image-h {
+  height: 15rem;
+}
+
 .floating {
   animation-name: floating;
   animation-duration: 3s;
@@ -31,7 +35,6 @@
   animation-timing-function: ease-in-out;
   margin-left: 30px;
   margin-top: 5px;
-  order: 2;
 }
 
 @keyframes floating {
