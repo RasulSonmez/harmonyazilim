@@ -27,6 +27,7 @@
     <div id="stars"></div>
     <div id="stars2"></div>
     <div id="stars3"></div>
+
     <!----- HEADER ----->
     <header class="header" id="header">
       <nav class="nav">
@@ -47,6 +48,9 @@
               <a href="#services" class="nav__link">Hizmetlerimiz</a>
             </li>
             <li class="nav__item">
+              <a href="#pricing" class="nav__link">Fiyatlandırma</a>
+            </li>
+            <li class="nav__item">
               <a href="#team" class="nav__link">Ekip</a>
             </li>
             <li class="nav__item">
@@ -59,7 +63,7 @@
           <i class="bx bx-grid-alt"></i>
         </div>
 
-        <a href="#" class="button button__header">Ücretsiz Dene!</a>
+        <a href="#demoRequest" class="button button__header">Ücretsiz Dene!</a>
       </nav>
     </header>
 
@@ -67,16 +71,10 @@
       <!----- HOME ----->
       <section class="home section" id="home">
         <div class="home__container container grid">
-          <img
-            class="floating"
-            src="/assets/images/hero-item.png"
-            alt="hero-item"
-          />
-
           <div class="home__item">
             <h1 class="home__title">
-              CRM SİSTEMİMİZ İLE <br />
-              HER ZAMAN YANINIZDAYIZ
+              CRM SİSTEMİMİZ <br />
+              HER ZAMAN YANINIZDA
             </h1>
             <p class="home__description">
               İhtiyaç duyduğunuz her şeyin dikkate alındığı size özel
@@ -84,8 +82,13 @@
               bir CRM hizmeti sizi bekliyor.
             </p>
 
-            <a href="#" class="button">Ücretsiz Dene!</a>
+            <a href="#demoRequest" class="button">Ücretsiz Dene!</a>
           </div>
+          <img
+            class="floating"
+            src="/assets/images/hero-item.png"
+            alt="hero-item"
+          />
         </div>
       </section>
 
@@ -215,6 +218,25 @@
               gösterebilirsiniz.
             </p>
           </div>
+          <div class="services__item">
+            <h3 class="services__subtitle">Modüllerimiz</h3>
+            <img src="/assets/images/cube-dynamic-premium.png" alt="services" />
+            <p class="services__description">
+              Modüllerimiz ile müşterlerinizin ve sizin için en kolay çözümleri
+              sunuyoruz
+            </p>
+            <ul class="services__list">
+              <li>- Telefon Kapandıktan Sonra SMS Gönderme Modülü</li>
+              <li>
+                - Arayan Müşteri En Son Konuştuğu Müşteri Temsilcisine Bağlama
+                Modülü
+              </li>
+              <li>- Plakaya Göre Tuşlatma Modülü</li>
+              <li>- Anket Gönderme Modülü</li>
+              <li>- Raporları Mail Gönderme Modülü</li>
+              <li>- Yurtdışı Aramalarını Farklı IVR'a Yönlendirme Modülü</li>
+            </ul>
+          </div>
         </div>
       </section>
       <!----- INTRODUCTION ----->
@@ -264,38 +286,9 @@
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
-      <!----- TEAM ----->
-      <section class="team section container" id="team">
-        <h2 class="section__title">EKİP</h2>
-        <div class="team__container grid">
-          <div class="team__item">
-            <img
-              src="https://cdn.dribbble.com/users/1786866/screenshots/13992097/media/c461eeae4d4b523c9d3bab7c66264916.png?compress=1&resize=800x600"
-              alt="team"
-            />
-            <p class="team__description">Hasan Över</p>
-          </div>
-
-          <div class="team__item">
-            <img
-              src="https://cdn.dribbble.com/users/230875/screenshots/12078079/media/7ba8ec4a42b529dcbbc695ce0dd07a4a.jpg"
-              alt="team"
-            />
-            <p class="team__description">Ahmet Emin</p>
-          </div>
-
-          <div class="team__item">
-            <img
-              src="https://cdn.dribbble.com/users/230875/screenshots/12215958/media/2c74bf1cf56023f67dc73f94fcb1b62b.jpg"
-              alt="team"
-            />
-            <p class="team__description">Rasul Sönmez</p>
-          </div>
-        </div>
-      </section>
 
       <!----- PRICING ----->
-      <section class="pricing section container">
+      <section class="pricing section container" id="pricing">
         <h2 class="section__title">FİYATLANDIRMA/PAKETLER</h2>
         <div class="pricing__container grid">
           <!--==================== PRICING 1 ====================-->
@@ -367,7 +360,9 @@
               </li>
             </ul>
 
-            <button class="pricing__button">Ücretsiz Dene</button>
+            <a href="#demoRequest" class="button pricing__button"
+              >Ücretsiz Dene</a
+            >
           </article>
 
           <!--==================== PRICING 2 ====================-->
@@ -441,7 +436,9 @@
               </li>
             </ul>
 
-            <button class="pricing__button">Ücretsiz Dene</button>
+            <a href="#demoRequest" class="button pricing__button"
+              >Ücretsiz Dene</a
+            >
           </article>
 
           <!--==================== PRICING 3 ====================-->
@@ -514,11 +511,97 @@
               </li>
             </ul>
 
-            <button class="pricing__button">Ücretsiz Dene</button>
+            <a href="#demoRequest" class="button pricing__button"
+              >Ücretsiz Dene</a
+            >
           </article>
         </div>
       </section>
 
+      <!----- TEAM ----->
+      <section class="team section container" id="team">
+        <h2 class="section__title">EKİP</h2>
+        <div class="team__container grid">
+          <div class="team__item">
+            <img
+              src="https://cdn.dribbble.com/users/1786866/screenshots/13992097/media/c461eeae4d4b523c9d3bab7c66264916.png?compress=1&resize=800x600"
+              alt="team"
+            />
+            <p class="team__description">Hasan Över</p>
+          </div>
+
+          <div class="team__item">
+            <img
+              src="https://cdn.dribbble.com/users/230875/screenshots/12078079/media/7ba8ec4a42b529dcbbc695ce0dd07a4a.jpg"
+              alt="team"
+            />
+            <p class="team__description">Ahmet Emin</p>
+          </div>
+
+          <div class="team__item">
+            <img
+              src="https://cdn.dribbble.com/users/230875/screenshots/12215958/media/2c74bf1cf56023f67dc73f94fcb1b62b.jpg"
+              alt="team"
+            />
+            <p class="team__description">Rasul Sönmez</p>
+          </div>
+        </div>
+      </section>
+      <!----- DEMO REQUEST ----->
+      <section class="demoRequest section container" id="demoRequest">
+        <div class="demoRequest__container grid">
+          <form action="" class="demoRequest__form">
+            <h2 class="section__title">HEMEN DEMO TALEP ET!</h2>
+            <div class="demoRequest__inputs">
+              <div class="demoRequest__content">
+                <input
+                  type="email"
+                  placeholder=" "
+                  class="demoRequest__input"
+                />
+                <label for="" class="demoRequest__label">İsim Soyisim</label>
+              </div>
+
+              <div class="demoRequest__content">
+                <input type="text" placeholder=" " class="demoRequest__input" />
+                <label for="" class="demoRequest__label">Şirket Adı</label>
+              </div>
+              <div class="demoRequest__content">
+                <input type="text" placeholder=" " class="demoRequest__input" />
+                <label for="" class="demoRequest__label">Telefon</label>
+              </div>
+              <div class="demoRequest__content">
+                <input type="text" placeholder=" " class="demoRequest__input" />
+                <label for="" class="demoRequest__label">Mail</label>
+              </div>
+            </div>
+
+            <a class="button demoRequest__button">
+              Kullanmaya Başla
+              <i class="bx bxs-right-top-arrow-circle"></i>
+            </a>
+          </form>
+          <div class="demoRequest__box">
+            <h2 class="section__title">
+              HARMONY CRM <br />
+              Sizi İşinizde <br />
+              Sizi Geleceğe Götürür!
+            </h2>
+            <ul class="demoRequest__list">
+              <li>- Müşterilerinizin %45’ini elinizde tutun,</li>
+              <li>- Müşteri başına satışlarınızı %55 arttırın,</li>
+              <li>- Müşteri başına karlılığınızı %70 arttırın,</li>
+              <li>- Müşteri sayınızı %50 arttırın.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h2 class="section__title">
+              Talebinizi Gönderin <br />
+              CRM'i ücretsiz kullanmaya başlayın!
+            </h2>
+          </div>
+        </div>
+      </section>
       <!----- CONTACT US ----->
       <section class="contact section container" id="contact">
         <h2 class="section__title">İLETİŞİM</h2>
@@ -609,9 +692,9 @@
         <div class="footer__content">
           <h3 class="footer__title">Paketlerimiz</h3>
           <ul class="footer__links">
-            <li><a href="#" class="footer__link">Raporlarama ve Analiz</a></li>
-            <li><a href="#" class="footer__link">Click To Call</a></li>
-            <li><a href="#" class="footer__link">Arayanı Bağla</a></li>
+            <li><a href="#" class="footer__link">Basic</a></li>
+            <li><a href="#" class="footer__link">Professional</a></li>
+            <li><a href="#" class="footer__link">Enterprise</a></li>
           </ul>
         </div>
 

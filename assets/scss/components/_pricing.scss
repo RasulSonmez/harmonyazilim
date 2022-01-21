@@ -6,6 +6,9 @@
     gap: 3rem 1.25rem;
     margin-top: var(--mb-2);
   }
+  &__description {
+    line-height: 2rem;
+  }
 
   &__content {
     position: relative;
@@ -118,15 +121,17 @@
   }
   &__button {
     padding: 1.25rem;
+    text-align: center;
     border: none;
     font-size: var(--normal-font-size);
     border-radius: 0.5rem;
+    color: var(--title-color);
     background: linear-gradient(
       157deg,
       var(--first-color-light) -12%,
       var(--first-color) 109%
     );
-    color: var(--white-color);
+
     cursor: pointer;
     transition: 0.4s;
 

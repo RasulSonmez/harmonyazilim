@@ -2,9 +2,9 @@
 .home {
   &__container {
     row-gap: 3rem;
-    img {
-      order: 2;
-    }
+  }
+  &__description {
+    line-height: 2rem;
   }
   &__title {
     font-size: var(--biggest-font-size);

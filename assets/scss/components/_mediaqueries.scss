@@ -11,8 +11,8 @@
   .section__title-center {
     text-align: initial;
   }
-
   .home__container,
+  .demoRequest__container,
   .about__container,
   .services__container,
   .team__container,
@@ -87,6 +87,14 @@
   .team__container,
   .contact__container {
     column-gap: 6rem;
+  }
+  .home__description,
+  .about__description,
+  .services__description,
+  .pricing__list,
+  .demoRequest__list,
+  .services__list {
+    font-size: 1.2rem;
   }
 
   .services__container {
